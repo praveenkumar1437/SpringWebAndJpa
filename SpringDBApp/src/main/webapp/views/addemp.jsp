@@ -38,7 +38,26 @@
 					Employee</a>
 			</div>
 		</div>
-		
+		<form:form modelAttribute="employee">
+
+			<div>
+				<form:label path="eno">Eno : </form:label>
+				<form:input path="eno" />
+			</div>
+			<div>
+				<form:label path="name">Name : </form:label>
+				<form:input path="name" />
+			</div>
+			<div>
+				<form:label path="salary">Salary : </form:label>
+				<form:input path="salary" />
+			</div>
+			<div>
+				<form:button>Add New Employee</form:button>
+			</div>
+
+
+		</form:form>
 	</div>
 </body>
 </html>
